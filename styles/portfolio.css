@@ -95,6 +95,9 @@ nav{
 }
 
 /* main related styles */
+main section{
+    margin-top: 130px
+}
 main{
     max-width: 1140px;
     margin: 0px auto;
@@ -130,4 +133,30 @@ font-weight: 700px;
     background: #FFF8F3;
     margin: 130px 0px;
     
+}
+/* skills related styles  */
+.skills-container{
+    display: flex;
+    gap: 25px;
+}
+.skill-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resume section */
+.resume-coloumn-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+
+}
+.resume-container{
+    display: flex;
 }
